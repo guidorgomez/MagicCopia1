@@ -30,20 +30,17 @@ header{
 .ancho{
     width: 100%;
     height: 70px;
-    margin: 5px;
-    
-    
+    margin: 5px;    
 }
 /*logo*/
-.logo{
+.logo {
     width: 20%;
     height: 70px;
-    float:left;
+    float:left;    
 }
+
 .logo p a{
-    padding-top: 10px;
-    box-sizing: border-box;
-    
+    padding-top: 10px;     
 }
 nav{      
     height: 70px;    
@@ -51,10 +48,8 @@ nav{
     padding-top: 24px;
     box-sizing: border-box;
 }
-
 nav ul li{
-    display: inline;
-     
+    display: inline;    
 }
 nav ul li a{    
     font-size: 25px;
@@ -62,7 +57,7 @@ nav ul li a{
     padding-left: 30px;    
 }
 ul li a{
-    color:#B3903A
+    color:#B3903A     
 }
 nav ul li a:hover{
     background-color: #be9c46;
@@ -90,7 +85,7 @@ nav ul li a:hover{
     padding-right: 1px ;
     height: 100vh;
 }
-.imgHome{}
+
 
 #pantalla-dividida{
     display: flex;
@@ -105,6 +100,11 @@ h1{
     margin: auto;
     margin-bottom: 50px;
     margin-left: 65px;
+    
+}
+h1:hover{
+    transform: scale(1.2);    
+    box-shadow: 3px rgb(88, 94, 26);
 }
 .parrafoBienvenida{
     font-size: 35px;
@@ -117,11 +117,14 @@ h1{
     border: 3px solid #fff;
     padding: 20px;
     text-decoration: none;
-    color: whitesmoke;
+    color: #B3903A;
     border-radius: 30px;    
     display: inline-block;
     margin-top: 30px;
     margin-left: 80px;    
+}
+.linkHomeNosotros a:hover{
+    transform: scale(1.1);
 }
 /*Fin de encabeza Bievenida*/
 
@@ -142,22 +145,29 @@ div .hashtagMBox{
     padding-top: 20px;
     height: 100vh;
 }
+.izquierdaHomeMenu:hover{
+    transition: 0.1s;
+}
 .derechaHomeMenu{
     height: 100vh;
     width: 50%;
-    padding-top: 80px;
+    padding-top: 80px;    
 }
 #pantalla-dividida-conoceMenu{
     display: flex;
     
 }
-.derechaHomeMenu h4{
+.derechaHomeMenu h2{
     font-size: 100px;
     line-height: 40px;
     width: 50%;
     margin: auto;
     margin-top: 40px;
     color: #B3903A;
+}
+.derechaHomeMenu .encabezaHomeMenu:hover{
+    transform: scale(1.2);    
+    box-shadow: 3px rgb(88, 94, 26);
 }
 .parrafoHomeMenu{
     font-size: 30px;
@@ -178,30 +188,19 @@ div .hashtagMBox{
 }
 
 /*formato de footer*/
-footer{
-    width: 100%;
-    margin-top: 50px;
-    justify-content: center;
-    margin: 3px;
-    padding: 3px;
-    
+footer .contenedorFooter{
+    display: flex;
+    width: 100%;      
+    justify-content: center;    
+    align-items: center;
 }    
-.contenedorFooter{
-    display: flex;    
-    justify-content: space-between;
-    align-items: center;    
-    padding-top: 5px;
-        
-}
+
 .footerFooter{
     display: flex;
-    width: 100%;    
-    justify-content: space-between;    
+    width: 100%;       
     text-align: center;       
 }
-.footerFooter .igfb{
-    font-size: 20px;   
-}
+
 footer div a{
     text-decoration: none;
     color: #B3903A;
@@ -212,11 +211,6 @@ footer div a{
     display: flex;
     flex-direction: row;
     justify-content: space-between;    
-}
-
-.logoFooter{
-    width: 15%;
-    justify-content: center;
 }
 /*cierre formato footer*/
 
